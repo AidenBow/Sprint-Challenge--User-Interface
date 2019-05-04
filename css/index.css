@@ -96,6 +96,10 @@ header nav img {
     margin-bottom: 40px;
 }
 
+.grid div img {
+    margin-bottom: 10px;
+}
+
 .grid div button {
     text-decoration: none;
     background-color: white;
@@ -104,6 +108,7 @@ header nav img {
     height: 30px;
     margin: 15px 0px 20px 0px;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .container {
@@ -124,8 +129,8 @@ header nav img {
 }
 
 .top-content .text-about {
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    margin: 0px 0px 25px 15px;
+ 
 }
 
 .top-content .text-container {
