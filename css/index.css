@@ -66,6 +66,19 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 25px 10px 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
