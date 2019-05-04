@@ -70,7 +70,7 @@ header nav {
     display: flex;
     width: 800px;
     margin: 20px auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header nav a {
@@ -79,44 +79,8 @@ header nav a {
     text-decoration: none;
 }
 
-.box1 {
-    background-color: teal;
-}
-
-.box2 {
-    background-color: gold;
-}
-
-.box3 {
-    background-color: cadetblue;
-}
-
-.box4 {
-    background-color: coral;
-}
-
-.box5 {
-    background-color: crimson;
-}
-
-.box6 {
-    background-color: forestgreen;
-}
-
-.box7 {
-    background-color: darkorchid;
-}
-
-.box8 {
-    background-color: hotpink;
-}
-
-.box9 {
-    background-color: indigo;
-}
-
-.box10 {
-    background-color: dodgerblue;
+header nav img {
+    margin: 0px 0px 0px -3.5%;
 }
 
 .grid {
@@ -202,6 +166,10 @@ header nav a {
     justify-content: space-around;
 }
 
+.bottom-content div {
+    margin-bottom: 20px;
+}
+
 .bottom-content .text-container {
     padding-right: 4%;
 }
@@ -227,4 +195,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/** only box colors beyond this point **/
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
