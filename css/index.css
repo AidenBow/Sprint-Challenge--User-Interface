@@ -120,6 +120,29 @@ header nav img {
     margin: 20px 0px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input:last-child {
+    padding: 10px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+#message {
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
