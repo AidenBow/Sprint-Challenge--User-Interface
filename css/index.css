@@ -119,6 +119,29 @@ header nav a {
     background-color: dodgerblue;
 }
 
+.grid {
+    display: flex;
+    margin: 0px 5px 0px -5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid div {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.grid div button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    height: 30px;
+    margin: 15px 0px 20px 0px;
+    border: 1px solid black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
